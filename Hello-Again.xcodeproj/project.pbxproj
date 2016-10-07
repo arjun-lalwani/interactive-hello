@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					B41A12A81DA6E3CD000B1F60 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WN3QYBSRHG;
 						ProvisioningStyle = Automatic;
 					};
 					B41A12BC1DA6E3CE000B1F60 = {
@@ -416,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WN3QYBSRHG;
 				INFOPLIST_FILE = "Hello-Again/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arjun-lalwani.Hello-Again";
@@ -428,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WN3QYBSRHG;
 				INFOPLIST_FILE = "Hello-Again/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arjun-lalwani.Hello-Again";

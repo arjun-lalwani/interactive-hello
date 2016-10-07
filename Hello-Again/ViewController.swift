@@ -17,7 +17,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var helloPic: UIImageView!
     
     @IBAction func submitRequest(_ sender:AnyObject) {
+
+        self.userInput.endEditing(true)
         userName.text = userInput.text
+        
         if (helloPic.isHidden == true) {
             helloPic.isHidden = false
         }
@@ -25,8 +28,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
