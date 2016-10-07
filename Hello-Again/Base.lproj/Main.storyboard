@@ -33,20 +33,6 @@
                                     <action selector="submitRequest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sy5-oH-w43"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hi, " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cex-lC-Zav">
-                                <frame key="frameInset" minX="22" minY="202" width="31" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qd4-EO-Bru">
-                                <frame key="frameInset" minX="47" minY="202" width="42" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8eu-OI-CJd">
                                 <frame key="frameInset" minX="16" minY="107" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -57,10 +43,22 @@
                                     <action selector="userInput:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="OZ9-UT-amm"/>
                                 </connections>
                             </textField>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hello.png" translatesAutoresizingMaskIntoConstraints="NO" id="h31-zC-sTA">
+                                <frame key="frameInset" minX="22" minY="309" width="316" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qd4-EO-Bru">
+                                <frame key="frameInset" minX="16" minY="469" width="343" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="41"/>
+                                <color key="textColor" red="0.98431372549019602" green="0.078431372549019607" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
+                        <outlet property="helloPic" destination="h31-zC-sTA" id="Leb-UU-PuX"/>
                         <outlet property="userInput" destination="8eu-OI-CJd" id="40B-Kv-ueL"/>
                         <outlet property="userName" destination="qd4-EO-Bru" id="kLp-rk-afu"/>
                     </connections>
@@ -70,4 +68,7 @@
             <point key="canvasLocation" x="40.799999999999997" y="88.605697151424295"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="hello.png" width="1142" height="432"/>
+    </resources>
 </document>

@@ -14,10 +14,13 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var userName: UILabel!
     
+    @IBOutlet weak var helloPic: UIImageView!
+    
     @IBAction func submitRequest(_ sender:AnyObject) {
-        
         userName.text = userInput.text
-        
+        if (helloPic.isHidden == true) {
+            helloPic.isHidden = false
+        }
     }
     
     override func viewDidLoad() {

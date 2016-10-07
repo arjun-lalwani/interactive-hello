@@ -14,6 +14,7 @@
 		B41A12B71DA6E3CE000B1F60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41A12B51DA6E3CE000B1F60 /* LaunchScreen.storyboard */; };
 		B41A12C21DA6E3CE000B1F60 /* Hello_AgainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41A12C11DA6E3CE000B1F60 /* Hello_AgainTests.swift */; };
 		B41A12CD1DA6E3CE000B1F60 /* Hello_AgainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41A12CC1DA6E3CE000B1F60 /* Hello_AgainUITests.swift */; };
+		B48A1F9A1DA774C3002B2F2D /* hello.png in Resources */ = {isa = PBXBuildFile; fileRef = B48A1F991DA774C3002B2F2D /* hello.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B41A12C81DA6E3CE000B1F60 /* Hello-AgainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello-AgainUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B41A12CC1DA6E3CE000B1F60 /* Hello_AgainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_AgainUITests.swift; sourceTree = "<group>"; };
 		B41A12CE1DA6E3CE000B1F60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48A1F991DA774C3002B2F2D /* hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hello.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				B41A12AC1DA6E3CD000B1F60 /* AppDelegate.swift */,
 				B41A12AE1DA6E3CD000B1F60 /* ViewController.swift */,
 				B41A12B01DA6E3CD000B1F60 /* Main.storyboard */,
+				B48A1F991DA774C3002B2F2D /* hello.png */,
 				B41A12B31DA6E3CE000B1F60 /* Assets.xcassets */,
 				B41A12B51DA6E3CE000B1F60 /* LaunchScreen.storyboard */,
 				B41A12B81DA6E3CE000B1F60 /* Info.plist */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B48A1F9A1DA774C3002B2F2D /* hello.png in Resources */,
 				B41A12B71DA6E3CE000B1F60 /* LaunchScreen.storyboard in Resources */,
 				B41A12B41DA6E3CE000B1F60 /* Assets.xcassets in Resources */,
 				B41A12B21DA6E3CE000B1F60 /* Main.storyboard in Resources */,
@@ -505,6 +509,7 @@
 				B41A12D31DA6E3CE000B1F60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B41A12D41DA6E3CE000B1F60 /* Build configuration list for PBXNativeTarget "Hello-AgainTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				B41A12D61DA6E3CE000B1F60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B41A12D71DA6E3CE000B1F60 /* Build configuration list for PBXNativeTarget "Hello-AgainUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				B41A12D91DA6E3CE000B1F60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
